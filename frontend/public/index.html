@@ -1,43 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta
+    name="description"
+    content="Web site created using create-react-app"
+  />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mexi – Health & Medical HTML Template</title>
+  <meta name="description" content="Mexi Health & Medical Bootstrap 5 Template is a sophisticated website template for your hospital or clinic."/>
+
+  <!--== Favicon ==-->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+  <!--== Main Style CSS ==-->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!--wrapper start-->
+  <div class="wrapper home-default-wrapper">
+
+    <!--== Start Preloader Content ==-->
+    <div class="preloader-wrap">
+      <div class="preloader">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!--== End Preloader Content ==-->
+
+    <!--== Start Header Wrapper ==-->
+    <header class="header-area header-default transparent sticky-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="header-align">
+              <div class="header-logo-area">
+                <a href="index.html">
+                  <img class="logo-main" src="assets/img/logo.png" alt="Logo" />
+                  <img class="logo-light" src="assets/img/logo-light.png" alt="Logo" />
+                </a>
+              </div>
+              <div class="header-navigation-area">
+                <ul class="main-menu nav justify-content-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="has-submenu"><a href="services.html">Services</a>
+                    <ul class="submenu-nav">
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li class="has-submenu"><a href="blog.html">Blog</a>
+                    <ul class="submenu-nav">
+                      <li><a href="blog.html">Blog Grid</a></li>
+                      <li><a href="blog-details.html">Blog Single</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="header-action-area">
+                <div class="login-reg">
+                  <a href="#/">log in</a><span>/</span><a href="#/">register</a> <i class="icon icofont-user-alt-3"></i>
+                </div>
+                <div class="widget-language">
+                  <span class="current">Eng <i class="icon icofont-simple-down"></i></span>
+                  <ul>
+                    <li><a href="#">Ban</a></li>
+                    <li><a href="#">Ger</a></li>
+                  </ul>
+                </div>
+                <button class="btn-menu d-lg-none">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--== End Header Wrapper ==-->
+
+    <main class="main-content site-wrapper-reveal">
+      <!--== Start Hero Area Wrapper ==-->
+      <section class="home-slider-area slider-default bg-img" data-bg-img="assets/img/slider/main-slide-01.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- Start Slide Item -->
+              <div class="slider-content-area" data-aos="fade-zoom-in" data-aos-duration="1300">
+                <h5>feel the difference with us</h5>
+                <h2>Your Health <span>Is Our Priority</span></h2>
+              </div>
+              <!-- End Slide Item -->
+              <div class="swiper-container service-slider-container">
+                <div class="swiper-wrapper service-slider service-category">
+
+                  <div class="swiper-slide category-item">
+                    <div class="icon">
+                      <i class="icofont-stethoscope-alt"></i>
+                    </div>
+                    <h4>Diagnose</h4>
+                    <p>Examination & Diagnosis</p>
+                  </div>
+
+                  <div class="swiper-slide category-item">
+                    <div class="icon">
+                      <i class="icofont-brain-alt"></i>
+                    </div>
+                    <h4>Treatment</h4>
+                    <p>Treatment of the disease</p>
+                  </div>
+
+                  <div class="swiper-slide category-item">
+                    <div class="icon">
+                      <i class="icofont-paralysis-disability"></i>
+                    </div>
+                    <h4>Care Healthy</h4>
+                    <p>Care and recuperation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--== End Hero Area Wrapper ==-->
+
+      <div id="root"></div>
+
+      <!--== Start Feature Area Wrapper ==-->
+      <section class="feature-area feature-default-area" data-bg-color="#eaeded">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title" data-aos="fade-up" data-aos-duration="1100">
+                <h5>Why Choose Mexi Medical</h5>
+                <h2 class="title">The Best <span>For Your Health</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-xl-8">
+              <div class="row icon-box-style1" data-aos="fade-up" data-aos-duration="1100">
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-prescription"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">Medical Counseling</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-doctor-alt"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">Top Level Doctors</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-microscope"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">Medical Facilites</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-ambulance-cross"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">24 Hours Services</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-blood"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">Personal Services</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box-item">
+                    <div class="icon">
+                      <i class="icofont-paralysis-disability"></i>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">Dedicated Patient Care</h5>
+                      <p>Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thumb" data-aos="fade-left" data-aos-duration="1500">
+          <img src="assets/img/photos/doctor-01.png" alt="Mexi-Image">
+        </div>
+      </section>
+      <!--== End Feature Area Wrapper ==-->
+
+          </main>
+
+    <!--== Start Footer Area Wrapper ==-->
+    <footer class="footer-area reveal-footer">
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-12">
+              <div class="widget-copyright">
+                <p>© 2023 <span>MEXI</span>. Made with <i class="icofont-heart-alt"></i> by <a target="_blank"
+                    href="https://www.hasthemes.com">Jawad</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--== End Footer Area Wrapper ==-->
+
+    <!--== Scroll Top Button ==-->
+    <div class="scroll-to-top"><span class="icofont-rounded-up"></span></div>
+
+    <!--== Start Side Menu ==-->
+    <aside class="off-canvas-wrapper">
+      <div class="off-canvas-inner">
+        <div class="off-canvas-overlay"></div>
+        <!-- Start Off Canvas Content Wrapper -->
+        <div class="off-canvas-content">
+          <!-- Off Canvas Header -->
+          <div class="off-canvas-header">
+            <div class="logo-area">
+              <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
+            </div>
+            <div class="close-action">
+              <button class="btn-close"><i class="lnr lnr-cross"></i></button>
+            </div>
+          </div>
+
+          <div class="off-canvas-item">
+            <!-- Start Mobile Menu Wrapper -->
+            <div class="res-mobile-menu">
+              <!-- Note Content Auto Generate By Jquery From Main Menu -->
+            </div>
+            <!-- End Mobile Menu Wrapper -->
+          </div>
+          <!-- Off Canvas Footer -->
+          <div class="off-canvas-footer"></div>
+        </div>
+        <!-- End Off Canvas Content Wrapper -->
+      </div>
+    </aside>
+    <!--== End Side Menu ==-->
+  </div>
+
+  <!--=======================Javascript============================-->
+
+  <!--=== Modernizr Min Js ===-->
+  <script src="assets/js/modernizr.js"></script>
+  <!--=== jQuery Min Js ===-->
+  <script src="assets/js/jquery-main.js"></script>
+  <!--=== jQuery Migration Min Js ===-->
+  <script src="assets/js/jquery-migrate.js"></script>
+  <!--=== Popper Min Js ===-->
+  <script src="assets/js/popper.min.js"></script>
+  <!--=== Bootstrap Min Js ===-->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!--=== jquery UI Min Js ===-->
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <!--=== Plugin Collection Js ===-->
+  <script src="assets/js/plugincollection.js"></script>
+
+
+  <!--=== Custom Js ===-->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
 </html>

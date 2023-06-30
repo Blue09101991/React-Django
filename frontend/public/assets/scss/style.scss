@@ -1,0 +1,52 @@
+// Table of contents
+@import "tableofcontent";
+
+// imported styles
+@import "common/imported";
+
+// Base
+@import "common/variables";
+@import "common/mixins";
+@import "common/rfs";
+
+// Typography
+ @import "common/typography";
+
+// Common Styles
+@import "mexi/common";
+@import "mexi/navbar";
+
+// Header
+@import "header/header";
+
+// Banner Styles
+@import "mexi/banner";
+
+// Components
+@import "mexi/about";
+@import "mexi/service";
+@import "mexi/team";
+@import "mexi/gallery";
+@import "mexi/pricing";
+@import "mexi/testimonial";
+@import "mexi/brand-logo";
+@import "mexi/feature";
+@import "mexi/divider";
+@import "mexi/icon-box";
+@import "mexi/form";
+@import "mexi/department";
+@import "mexi/case";
+
+// Pages
+@import "pages/home-default";
+
+
+
+// Blog
+@import "mexi/blog";
+
+// Contact
+@import "mexi/contact";
+
+// Footer
+@import "footer/footer";

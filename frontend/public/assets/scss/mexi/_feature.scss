@@ -1,0 +1,46 @@
+/*
+-----------------------------------------------------------------------
+	Feature CSS
+-----------------------------------------------------------------------
+*/
+.feature-area {
+	&.feature-default-area {
+    padding: 0 0 74px;
+    position: relative;
+    @media #{$lg-device} {
+      padding: 100px 0 35px;
+    }
+    @media #{$sm-device} {
+      padding: 80px 0 15px;
+    }
+    @media #{$xs-device} {
+      padding: 70px 0 5px;
+    }
+    .section-title {
+      margin-bottom: 94px;
+      @media #{$lg-device} {
+        margin-bottom: 70px;
+      }
+      @media #{$sm-device} {
+        margin-bottom: 60px;
+      }
+      @media #{$xs-device} {
+        margin-bottom: 50px;
+      }
+    }
+    .thumb {
+      bottom: 0;
+    	left: calc(50% + 253px);
+    	position: absolute;
+      @media #{$xxl-device} {
+        left: calc(50% + 150px);
+      }
+      @media #{$lg-device} {
+        display: none;
+      }
+    	img {
+    		max-width: none;
+    	}
+    }
+	}
+}
